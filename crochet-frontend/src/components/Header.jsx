@@ -15,7 +15,7 @@ export default function Header() {
     <header className="bg-pink-100 shadow-md">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-gray-800">Crochet Store</h1>
+        <h1 className="text-2xl font-bold text-gray-800">theknottyknot</h1>
     
         {/* Navigation */}
         <nav className="space-x-6 font-medium text-gray-700 bg-pink-100">
@@ -37,7 +37,7 @@ export default function Header() {
               <Link to="/cart" className="hover:text-pink-600">Cart</Link>
               <button
                 onClick={handleLogout}
-                className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
+                className="hover:text-pink-600"
               >
                 Logout
               </button>
@@ -50,7 +50,7 @@ export default function Header() {
               <Link to="/manage-products" className="hover:text-pink-600">Manage</Link>
               <button
                 onClick={handleLogout}
-                className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
+                className="hover:text-pink-600"
               >
                 Logout
               </button>

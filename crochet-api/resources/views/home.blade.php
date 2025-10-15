@@ -48,7 +48,7 @@
 </section>
 
 <!-- Featured Products -->
-<section class="px-8 py-10">
+<section class="px-4 py-10">
   <h3 class="text-2xl font-semibold mb-6">Featured Products</h3>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
     <div class="bg-white rounded-lg shadow p-4 text-center">
